@@ -1,0 +1,10 @@
+<!doctype html>
+<html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Autorização - Canal Curiosidades</title>
+<style>body{font-family:system-ui,sans-serif;max-width:760px;margin:40px auto;padding:0 20px;color:#1b1e27}code{word-break:break-all}</style></head>
+<body>
+<h1>Autorização concluída</h1>
+<p>Este aplicativo é de uso pessoal. Volte ao programa e informe o código abaixo, se for pedido. Não compartilhe este código.</p>
+<p>Código: <code id="c">(nenhum)</code></p>
+<script>const q=new URLSearchParams(location.search);document.getElementById("c").textContent=q.get("code")||q.get("error")||"(nenhum)";</script>
+</body></html>
